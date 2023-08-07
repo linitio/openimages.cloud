@@ -3,3 +3,7 @@
     margin: auto 1em;
     display: flex;
 }
+
+.thumbnails img {
+    margin: auto;
+}
