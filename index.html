@@ -26,23 +26,6 @@
   <meta name="theme-color" content="#563d7c"> -->
 
 
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
-  <!-- Custom styles for this template -->
   <link href="css/album.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -104,13 +87,11 @@
 
     <div class="album py-5 bg-light">
       <div class="container">
-
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <div class="thumbnails">
-                <img class="bd-placeholder-img card-img-top" margin="auto" src="img/alpine_linux.svg"
-                   class="img-fluid" alt="Alpine Linux Logo" role="img" aria-label="Placeholder: Thumbnail" />
+                <img class="bd-placeholder-img card-img-top" margin="auto" src="img/alpine_linux.svg" class="img-fluid" alt="Alpine Linux Logo" role="img" aria-label="Placeholder: Thumbnail" />
               </div>
               <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center">
@@ -124,6 +105,25 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <div class="thumbnails">
+                <img class="bd-placeholder-img card-img-top" margin="auto" src="img/amazon_linux.png" class="img-fluid" alt="Amazon Linux Logo" role="img" aria-label="Placeholder: Thumbnail" />
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a cLass="btn btn-secondary" role="button" href="https://github.com/linitio/openstack-alpine-image/releases/download/3.15/alpine-3.15-x86_64.qcow2">3.15</a>
+                    <a cLass="btn btn-secondary" role="button" href="https://github.com/linitio/openstack-alpine-image/releases/download/3.16/alpine-3.16-x86_64.qcow2">3.16</a>
+                    <a cLass="btn btn-secondary" role="button" href="https://github.com/linitio/openstack-alpine-image/releases/download/3.17/alpine-3.17-x86_64.qcow2">3.17</a>
+                    <a cLass="btn btn-primary" role="button" href="https://github.com/linitio/openstack-alpine-image/releases/download/3.18/alpine-3.18-x86_64.qcow2">3.18</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="icons/freebsd.svg"
