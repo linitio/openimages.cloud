@@ -21,4 +21,6 @@
 
 .thumbnails img {
     margin: auto;
+    max-height: max-content;
+    max-width: max-content;
 }
